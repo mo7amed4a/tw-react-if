@@ -1,0 +1,38 @@
+{
+  "name": "tw-react-if",
+  "version": "1.0.1",
+  "description": "A simple React conditional rendering component with display, Tailwind, and remove modes.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "bun run build:ts",
+    "build:ts": "tsc"
+  },
+  "author": {
+    "name": "Mohamed Abdelrahman",
+    "url": "https://github.com/mo7amed4a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mo7amed4a/tw-react-if"
+  },
+  "license": "MIT",
+  "keywords": ["react", "conditional-rendering", "tailwind", "if-component"],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.2",
+    "react": "^19.2.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
