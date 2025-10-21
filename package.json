@@ -2,8 +2,8 @@
   "name": "tw-react-if",
   "version": "1.0.1",
   "description": "A simple React conditional rendering component with display, Tailwind, and remove modes.",
-  "main": "dist/index.js",
   "module": "dist/index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
